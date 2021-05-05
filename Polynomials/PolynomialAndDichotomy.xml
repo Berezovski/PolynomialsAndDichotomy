@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolynomialAndDichotomy</name>
+    </assembly>
+    <members>
+        <member name="M:PolynomialAndDichotomy.Program.PrintPoly(System.Collections.Generic.SortedList{System.Int32,System.Int32})">
+            <summary>
+            Выводим весь полином
+            </summary>
+            <param name="brackets"> Массив данных </param>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.#ctor(System.Collections.Generic.SortedList{System.Int32,System.Int32})">
+            <summary>
+            Перенимает значения brackets (одновременно проверяя их)
+            </summary>
+            <param name="brackets"> лист для скобок (x-int)^int* ... </param>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.CheckBrackets(System.Collections.Generic.SortedList{System.Int32,System.Int32})">
+            <summary>
+            Проверка введённого полинома
+            </summary>
+            <param name="brackets"> Данные в виде множителей в скобках </param>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.StartFindMin(System.Double@)">
+            <summary>
+            Ищем минимальный y
+            </summary>
+            <param name="x"> x минимального значения y</param>
+            <returns> Минимальный y </returns>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.StartFindMax(System.Double@)">
+            <summary>
+            Ищем максимальный y
+            </summary>
+            <param name="x"> x максимальный значения y</param>
+            <returns> Максимальный y </returns>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.DichotomyForMax(System.Double,System.Double,System.Double@)">
+            <summary>
+            Применяет дихотомию на отрезке
+            </summary>
+            <param name="a"> левая часть отрезка  </param>
+            <param name="b"> правая часть отрезка </param>
+            <param name="x"> x максимального значения y на отрезке </param>
+            <returns> Максимальное значение y </returns>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.DichotomyForMin(System.Double,System.Double,System.Double@)">
+            <summary>
+            Применяет дихотомию на отрезке
+            </summary>
+            <param name="a"> левая часть отрезка  </param>
+            <param name="b"> правая часть отрезка </param>
+            <param name="x"> x минимального значения y на отрезке </param>
+            <returns> Минимальное значение y </returns>
+        </member>
+        <member name="M:PolynomialAndDichotomy.WorkWithPoly.FindValue(System.Double)">
+            <summary>
+            Вычисляет значение по x 
+            </summary>
+            <param name="x"> x </param>
+            <returns> f(y) </returns>
+        </member>
+    </members>
+</doc>
