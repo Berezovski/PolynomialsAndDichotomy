@@ -72,7 +72,7 @@ namespace PolynomialAndDichotomy
             }
 
             x = checkArrayForAnswer.Keys[checkArrayForAnswer.Values.IndexOf(y)];
-            return y;
+            return Math.Round(y);
         }
 
         /// <summary>
@@ -102,7 +102,7 @@ namespace PolynomialAndDichotomy
             }
 
             x = checkArrayForAnswer.Keys[checkArrayForAnswer.Values.IndexOf(y)];
-            return y;
+            return Math.Round(y);
         }
 
         /// <summary>
